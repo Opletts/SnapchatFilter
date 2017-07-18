@@ -24,7 +24,7 @@ while(True):
 		y = min(eyes[0][1], eyes[1][1])
 		h = max(eyes[0][3], eyes[1][3])
 
-		gl = cv2.imread('/home/opletts/Stuff/glass.jpg')
+		gl = cv2.imread('glass.jpg')
 		#cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
 		gl = cv2.resize(gl, (w+50,h+50))
 
