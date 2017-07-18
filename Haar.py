@@ -14,7 +14,7 @@ while(True):
 
 	for (x,y,w,h) in faces:
 		ch = cv2.imread('Cherizerd.png') #read the image you want to overlay on the face
-		cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+		#cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
 		ch = cv2.resize(ch, (w,h))
 
 		roi = img[y:y+h, x:x+w]
